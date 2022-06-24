@@ -6,9 +6,9 @@
 $ export PATH="$PATH:$(go env GOPATH)/bin"
 <br>
 <br>
-"$ protoc --go_out=. --go_opt=paths=source_relative \
+$ protoc --go_out=. --go_opt=paths=source_relative \
   --go-grpc_out=. --go-grpc_opt=paths=source_relative \
-  protos/moviesapp.proto"
+  protos/moviesapp.proto
 <br>
 <br>
 $go mod tidy
